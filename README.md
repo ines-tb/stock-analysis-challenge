@@ -37,7 +37,7 @@ After the variables creation, four loops and a block for static formatting will 
   
 * **Output loop:**
   In previous loop all the needed data was stored in the created arrays.
-  Here, after activating the sheet where the analysis output will be written, we loop as many times as the number of tickers. One row per ticker will be added with the name in the first column, its total volume in the second and the yearly revenue in the third. 
+  Here, after activating the sheet where the analysis output will be written (_All Stocks Challenge_), we loop as many times as the number of tickers. One row per ticker will be added with the name in the first column, its total volume in the second and the yearly revenue in the third. 
 
 * **Static formatting:**
   A block with some static formatting sentences will change the font, alignment and number formats of certain elements of the output sheet. E.g. Including some color to the header, adding decimals, '$' and thousand separator to the volume or writing the '%' symbol at the end of the return values with certain decimals.
@@ -46,5 +46,5 @@ After the variables creation, four loops and a block for static formatting will 
   A last loop will change the filling color of the third column (_Return_) depending on its value. Red for negative values, green for positive and none otherwise.
 
 ###### > Macro Output
-In the output sheet the first cell of the worksheet will indicate that the analysis is for all stocks and the year for which the analysis has been run. 
+In the output sheet (_All Stocks Challenge_) the first cell of the worksheet will indicate that the analysis is for all stocks and the year for which the analysis has been run. 
 A table below, will contain the summarized data for each ticker: the total volume and the yearly revenue percentage. The cells of these last values will be highlighted red or green for negative or positive values respectively.
